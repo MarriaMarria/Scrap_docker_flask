@@ -31,6 +31,7 @@ company_list = []
 summary_list = []
 salary_list = []
 
+
 def find_salary():
 
     logging.info("getting salaries: start")
