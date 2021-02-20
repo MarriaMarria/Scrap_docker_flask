@@ -72,6 +72,7 @@ def search_by_word(word):
     result = mycursor.fetchall()
     return jsonify(result)
     app.logger.info('searching with a string: end')
+    
 
 # I don't understand request.args.get
 # @app.route('/search/city')
