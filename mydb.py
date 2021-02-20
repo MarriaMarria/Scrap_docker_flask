@@ -15,7 +15,6 @@ mydb = mysql.connector.connect(
 )
 mycursor = mydb.cursor()
 
-
 # mycursor.execute("DROP TABLE Job_Offers")
 logging.info("creating table")
 mycursor.execute("CREATE TABLE IF NOT EXISTS Job_Offers (id INT PRIMARY KEY AUTO_INCREMENT, title VARCHAR(100), company VARCHAR(100), location VARCHAR(100), salary VARCHAR(100), date_published VARCHAR(100), more_info TEXT, description TEXT)")

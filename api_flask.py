@@ -63,6 +63,7 @@ def search_date():
     app.logger.info('searching by date published: end')
 
 
+
 # #search with a string in title (like front, php, angular...)
 @app.route('/search/word/<word>')
 def search_by_word(word):
