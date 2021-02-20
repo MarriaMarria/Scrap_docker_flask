@@ -7,3 +7,5 @@ from api_flask import *
 
 
 insert_data(big_list)
+
+# print(big_list)

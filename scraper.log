@@ -28,3 +28,245 @@
 2021-02-20 08:51:15,902 - root - MainThread - getting job titles: start
 2021-02-20 08:51:15,902 - root - MainThread - getting job location: start
 2021-02-20 08:51:15,929 - root - MainThread - getting date when posted: start
+2021-02-20 10:21:58,112 - root - MainThread - getting company names: start
+2021-02-20 10:21:58,115 - root - MainThread - getting job links: start
+2021-02-20 10:21:58,115 - root - MainThread - getting job titles: start
+2021-02-20 10:21:58,115 - root - MainThread - getting job location: start
+2021-02-20 10:21:58,121 - root - MainThread - getting date when posted: start
+2021-02-20 10:22:26,425 - root - MainThread - getting company names: start
+2021-02-20 10:22:26,428 - root - MainThread - getting job links: start
+2021-02-20 10:22:26,428 - root - MainThread - getting job titles: start
+2021-02-20 10:22:26,428 - root - MainThread - getting job location: start
+2021-02-20 10:22:26,435 - root - MainThread - getting date when posted: start
+2021-02-20 10:26:30,026 - root - MainThread - getting company names: start
+2021-02-20 10:26:30,030 - root - MainThread - getting job links: start
+2021-02-20 10:26:30,030 - root - MainThread - getting job titles: start
+2021-02-20 10:26:30,030 - root - MainThread - getting job location: start
+2021-02-20 10:26:30,038 - root - MainThread - getting date when posted: start
+2021-02-20 10:29:51,418 - root - MainThread - getting company names: start
+2021-02-20 10:29:51,421 - root - MainThread - getting job links: start
+2021-02-20 10:29:51,422 - root - MainThread - getting job titles: start
+2021-02-20 10:29:51,422 - root - MainThread - getting job location: start
+2021-02-20 10:29:51,429 - root - MainThread - getting date when posted: start
+2021-02-20 10:29:51,432 - root - MainThread - getting salary: start
+2021-02-20 10:29:51,438 - root - MainThread - getting summary: start
+2021-02-20 10:32:45,088 - root - MainThread - getting company names: start
+2021-02-20 10:32:45,091 - root - MainThread - getting job links: start
+2021-02-20 10:32:45,092 - root - MainThread - getting job titles: start
+2021-02-20 10:32:45,092 - root - MainThread - getting job location: start
+2021-02-20 10:32:45,098 - root - MainThread - getting date when posted: start
+2021-02-20 10:32:56,473 - root - MainThread - getting company names: start
+2021-02-20 10:32:56,475 - root - MainThread - getting job links: start
+2021-02-20 10:32:56,476 - root - MainThread - getting job titles: start
+2021-02-20 10:32:56,476 - root - MainThread - getting job location: start
+2021-02-20 10:32:56,482 - root - MainThread - getting date when posted: start
+2021-02-20 10:32:56,484 - root - MainThread - getting summary: start
+2021-02-20 10:34:52,871 - root - MainThread - getting company names: start
+2021-02-20 10:34:52,873 - root - MainThread - getting job links: start
+2021-02-20 10:34:52,874 - root - MainThread - getting job titles: start
+2021-02-20 10:34:52,874 - root - MainThread - getting job location: start
+2021-02-20 10:34:52,880 - root - MainThread - getting date when posted: start
+2021-02-20 10:34:52,883 - root - MainThread - getting summary: start
+2021-02-20 10:40:08,614 - root - MainThread - getting company names: start
+2021-02-20 10:40:08,623 - root - MainThread - getting job links: start
+2021-02-20 10:40:08,623 - root - MainThread - getting job titles: start
+2021-02-20 10:40:08,623 - root - MainThread - getting job location: start
+2021-02-20 10:40:08,631 - root - MainThread - getting date when posted: start
+2021-02-20 10:40:30,503 - root - MainThread - getting company names: start
+2021-02-20 10:40:30,506 - root - MainThread - getting job links: start
+2021-02-20 10:40:30,506 - root - MainThread - getting job titles: start
+2021-02-20 10:40:30,506 - root - MainThread - getting job location: start
+2021-02-20 10:40:30,513 - root - MainThread - getting date when posted: start
+2021-02-20 10:41:35,878 - root - MainThread - getting company names: start
+2021-02-20 10:41:35,881 - root - MainThread - getting job links: start
+2021-02-20 10:41:35,881 - root - MainThread - getting job titles: start
+2021-02-20 10:41:35,881 - root - MainThread - getting job location: start
+2021-02-20 10:41:35,888 - root - MainThread - getting date when posted: start
+2021-02-20 10:42:27,610 - root - MainThread - getting company names: start
+2021-02-20 10:42:27,613 - root - MainThread - getting job links: start
+2021-02-20 10:42:27,613 - root - MainThread - getting job titles: start
+2021-02-20 10:42:27,613 - root - MainThread - getting job location: start
+2021-02-20 10:42:27,621 - root - MainThread - getting date when posted: start
+2021-02-20 10:42:47,458 - root - MainThread - getting company names: start
+2021-02-20 10:42:47,462 - root - MainThread - getting job links: start
+2021-02-20 10:42:47,462 - root - MainThread - getting job titles: start
+2021-02-20 10:42:47,462 - root - MainThread - getting job location: start
+2021-02-20 10:42:47,470 - root - MainThread - getting date when posted: start
+2021-02-20 10:44:20,849 - root - MainThread - getting company names: start
+2021-02-20 10:44:20,852 - root - MainThread - getting job links: start
+2021-02-20 10:44:20,852 - root - MainThread - getting job titles: start
+2021-02-20 10:44:20,852 - root - MainThread - getting job location: start
+2021-02-20 10:44:20,859 - root - MainThread - getting date when posted: start
+2021-02-20 10:45:31,912 - root - MainThread - getting company names: start
+2021-02-20 10:45:31,915 - root - MainThread - getting job links: start
+2021-02-20 10:45:31,915 - root - MainThread - getting job titles: start
+2021-02-20 10:45:31,915 - root - MainThread - getting job location: start
+2021-02-20 10:45:31,922 - root - MainThread - getting date when posted: start
+2021-02-20 10:45:49,649 - root - MainThread - getting company names: start
+2021-02-20 10:45:49,652 - root - MainThread - getting job links: start
+2021-02-20 10:45:49,652 - root - MainThread - getting job titles: start
+2021-02-20 10:45:49,652 - root - MainThread - getting job location: start
+2021-02-20 10:45:49,659 - root - MainThread - getting date when posted: start
+2021-02-20 11:09:25,217 - root - MainThread - getting company names: start
+2021-02-20 11:09:25,223 - root - MainThread - getting job links: start
+2021-02-20 11:09:25,223 - root - MainThread - getting job titles: start
+2021-02-20 11:09:25,223 - root - MainThread - getting job location: start
+2021-02-20 11:09:25,230 - root - MainThread - getting date when posted: start
+2021-02-20 11:09:44,912 - root - MainThread - getting company names: start
+2021-02-20 11:09:44,915 - root - MainThread - getting job links: start
+2021-02-20 11:09:44,915 - root - MainThread - getting job titles: start
+2021-02-20 11:09:44,915 - root - MainThread - getting job location: start
+2021-02-20 11:09:44,923 - root - MainThread - getting date when posted: start
+2021-02-20 11:11:09,293 - root - MainThread - getting company names: start
+2021-02-20 11:11:09,296 - root - MainThread - getting job links: start
+2021-02-20 11:11:09,297 - root - MainThread - getting job titles: start
+2021-02-20 11:11:09,297 - root - MainThread - getting job location: start
+2021-02-20 11:11:09,303 - root - MainThread - getting date when posted: start
+2021-02-20 11:11:31,578 - root - MainThread - getting company names: start
+2021-02-20 11:11:31,581 - root - MainThread - getting job links: start
+2021-02-20 11:11:31,581 - root - MainThread - getting job titles: start
+2021-02-20 11:11:31,581 - root - MainThread - getting job location: start
+2021-02-20 11:11:31,588 - root - MainThread - getting date when posted: start
+2021-02-20 11:15:18,545 - root - MainThread - getting company names: start
+2021-02-20 11:15:18,548 - root - MainThread - getting job links: start
+2021-02-20 11:15:18,549 - root - MainThread - getting job titles: start
+2021-02-20 11:15:18,549 - root - MainThread - getting job location: start
+2021-02-20 11:15:18,555 - root - MainThread - getting date when posted: start
+2021-02-20 11:15:18,558 - root - MainThread - getting summaries: start
+2021-02-20 11:15:46,335 - root - MainThread - getting company names: start
+2021-02-20 11:15:46,339 - root - MainThread - getting job links: start
+2021-02-20 11:15:46,339 - root - MainThread - getting job titles: start
+2021-02-20 11:15:46,339 - root - MainThread - getting job location: start
+2021-02-20 11:15:46,346 - root - MainThread - getting date when posted: start
+2021-02-20 11:15:46,348 - root - MainThread - getting summaries: start
+2021-02-20 11:17:32,186 - root - MainThread - getting company names: start
+2021-02-20 11:17:32,190 - root - MainThread - getting job links: start
+2021-02-20 11:17:32,190 - root - MainThread - getting job titles: start
+2021-02-20 11:17:32,190 - root - MainThread - getting job location: start
+2021-02-20 11:17:32,198 - root - MainThread - getting date when posted: start
+2021-02-20 11:17:32,202 - root - MainThread - getting summaries: start
+2021-02-20 11:17:52,198 - root - MainThread - getting company names: start
+2021-02-20 11:17:52,201 - root - MainThread - getting job links: start
+2021-02-20 11:17:52,201 - root - MainThread - getting job titles: start
+2021-02-20 11:17:52,201 - root - MainThread - getting job location: start
+2021-02-20 11:17:52,208 - root - MainThread - getting date when posted: start
+2021-02-20 11:17:52,211 - root - MainThread - getting summaries: start
+2021-02-20 11:19:40,377 - root - MainThread - getting company names: start
+2021-02-20 11:19:40,381 - root - MainThread - getting job links: start
+2021-02-20 11:19:40,381 - root - MainThread - getting job titles: start
+2021-02-20 11:19:40,381 - root - MainThread - getting job location: start
+2021-02-20 11:19:40,407 - root - MainThread - getting date when posted: start
+2021-02-20 11:19:40,411 - root - MainThread - getting summaries: start
+2021-02-20 11:19:55,587 - root - MainThread - getting company names: start
+2021-02-20 11:19:55,590 - root - MainThread - getting job links: start
+2021-02-20 11:19:55,590 - root - MainThread - getting job titles: start
+2021-02-20 11:19:55,590 - root - MainThread - getting job location: start
+2021-02-20 11:19:55,597 - root - MainThread - getting date when posted: start
+2021-02-20 11:19:55,600 - root - MainThread - getting summaries: start
+2021-02-20 11:20:09,927 - root - MainThread - getting company names: start
+2021-02-20 11:20:09,931 - root - MainThread - getting job links: start
+2021-02-20 11:20:09,932 - root - MainThread - getting job titles: start
+2021-02-20 11:20:09,932 - root - MainThread - getting job location: start
+2021-02-20 11:20:09,939 - root - MainThread - getting date when posted: start
+2021-02-20 11:20:09,943 - root - MainThread - getting summaries: start
+2021-02-20 11:21:21,794 - root - MainThread - getting company names: start
+2021-02-20 11:21:21,797 - root - MainThread - getting job links: start
+2021-02-20 11:21:21,797 - root - MainThread - getting job titles: start
+2021-02-20 11:21:21,798 - root - MainThread - getting job location: start
+2021-02-20 11:21:21,805 - root - MainThread - getting date when posted: start
+2021-02-20 11:21:21,808 - root - MainThread - getting summaries: start
+2021-02-20 11:21:46,270 - root - MainThread - getting company names: start
+2021-02-20 11:21:46,273 - root - MainThread - getting job links: start
+2021-02-20 11:21:46,273 - root - MainThread - getting job titles: start
+2021-02-20 11:21:46,273 - root - MainThread - getting job location: start
+2021-02-20 11:21:46,281 - root - MainThread - getting date when posted: start
+2021-02-20 11:21:46,284 - root - MainThread - getting summaries: start
+2021-02-20 11:30:53,528 - root - MainThread - getting company names: start
+2021-02-20 11:30:53,533 - root - MainThread - getting job links: start
+2021-02-20 11:30:53,533 - root - MainThread - getting job titles: start
+2021-02-20 11:30:53,533 - root - MainThread - getting job location: start
+2021-02-20 11:30:53,540 - root - MainThread - getting date when posted: start
+2021-02-20 11:30:53,543 - root - MainThread - getting summaries: start
+2021-02-20 11:31:06,467 - root - MainThread - getting company names: start
+2021-02-20 11:31:06,470 - root - MainThread - getting job links: start
+2021-02-20 11:31:06,471 - root - MainThread - getting job titles: start
+2021-02-20 11:31:06,471 - root - MainThread - getting job location: start
+2021-02-20 11:31:06,477 - root - MainThread - getting date when posted: start
+2021-02-20 11:31:06,480 - root - MainThread - getting summaries: start
+2021-02-20 11:40:56,281 - root - MainThread - getting company names: start
+2021-02-20 11:40:56,284 - root - MainThread - getting job links: start
+2021-02-20 11:40:56,284 - root - MainThread - getting job titles: start
+2021-02-20 11:40:56,284 - root - MainThread - getting job location: start
+2021-02-20 11:40:56,290 - root - MainThread - getting date when posted: start
+2021-02-20 11:40:56,293 - root - MainThread - getting summaries: start
+2021-02-20 11:40:56,296 - root - MainThread - getting salaries: start
+2021-02-20 11:44:26,535 - root - MainThread - getting company names: start
+2021-02-20 11:44:26,537 - root - MainThread - getting job links: start
+2021-02-20 11:44:26,538 - root - MainThread - getting job titles: start
+2021-02-20 11:44:26,538 - root - MainThread - getting job location: start
+2021-02-20 11:44:26,545 - root - MainThread - getting date when posted: start
+2021-02-20 11:44:26,548 - root - MainThread - getting summaries: start
+2021-02-20 11:44:26,552 - root - MainThread - getting salaries: start
+2021-02-20 11:51:34,463 - root - MainThread - getting company names: start
+2021-02-20 11:51:34,467 - root - MainThread - getting job links: start
+2021-02-20 11:51:34,467 - root - MainThread - getting job titles: start
+2021-02-20 11:51:34,467 - root - MainThread - getting job location: start
+2021-02-20 11:51:34,475 - root - MainThread - getting date when posted: start
+2021-02-20 11:51:34,478 - root - MainThread - getting summaries: start
+2021-02-20 11:51:34,482 - root - MainThread - getting salaries: start
+2021-02-20 11:54:41,210 - root - MainThread - getting company names: start
+2021-02-20 11:54:41,213 - root - MainThread - getting job links: start
+2021-02-20 11:54:41,213 - root - MainThread - getting job titles: start
+2021-02-20 11:54:41,213 - root - MainThread - getting job location: start
+2021-02-20 11:54:41,221 - root - MainThread - getting date when posted: start
+2021-02-20 11:54:41,223 - root - MainThread - getting summaries: start
+2021-02-20 11:54:41,226 - root - MainThread - getting salaries: start
+2021-02-20 11:55:44,779 - root - MainThread - getting company names: start
+2021-02-20 11:55:44,782 - root - MainThread - getting job links: start
+2021-02-20 11:55:44,782 - root - MainThread - getting job titles: start
+2021-02-20 11:55:44,782 - root - MainThread - getting job location: start
+2021-02-20 11:55:44,791 - root - MainThread - getting date when posted: start
+2021-02-20 11:55:44,795 - root - MainThread - getting summaries: start
+2021-02-20 11:55:44,798 - root - MainThread - getting salaries: start
+2021-02-20 11:56:24,559 - root - MainThread - getting company names: start
+2021-02-20 11:56:24,562 - root - MainThread - getting job links: start
+2021-02-20 11:56:24,562 - root - MainThread - getting job titles: start
+2021-02-20 11:56:24,562 - root - MainThread - getting job location: start
+2021-02-20 11:56:24,570 - root - MainThread - getting date when posted: start
+2021-02-20 11:56:24,573 - root - MainThread - getting summaries: start
+2021-02-20 11:56:24,576 - root - MainThread - getting salaries: start
+2021-02-20 12:02:34,181 - root - MainThread - getting company names: start
+2021-02-20 12:02:34,194 - root - MainThread - getting job links: start
+2021-02-20 12:02:34,195 - root - MainThread - getting job titles: start
+2021-02-20 12:02:34,195 - root - MainThread - getting job location: start
+2021-02-20 12:02:34,212 - root - MainThread - getting date when posted: start
+2021-02-20 12:02:34,219 - root - MainThread - getting summaries: start
+2021-02-20 12:02:34,226 - root - MainThread - getting salaries: start
+2021-02-20 12:13:52,164 - root - MainThread - getting company names: start
+2021-02-20 12:13:52,171 - root - MainThread - getting job links: start
+2021-02-20 12:13:52,172 - root - MainThread - getting job titles: start
+2021-02-20 12:13:52,172 - root - MainThread - getting job location: start
+2021-02-20 12:13:52,183 - root - MainThread - getting date when posted: start
+2021-02-20 12:13:52,188 - root - MainThread - getting summaries: start
+2021-02-20 12:13:52,194 - root - MainThread - getting salaries: start
+2021-02-20 13:11:10,817 - root - MainThread - getting company names: start
+2021-02-20 13:11:10,827 - root - MainThread - getting job links: start
+2021-02-20 13:11:10,827 - root - MainThread - getting job titles: start
+2021-02-20 13:11:10,827 - root - MainThread - getting job location: start
+2021-02-20 13:11:10,848 - root - MainThread - getting date when posted: start
+2021-02-20 13:11:10,854 - root - MainThread - getting summaries: start
+2021-02-20 13:11:10,859 - root - MainThread - getting salaries: start
+2021-02-20 13:14:15,787 - root - MainThread - getting company names: start
+2021-02-20 13:14:15,792 - root - MainThread - getting job links: start
+2021-02-20 13:14:15,792 - root - MainThread - getting job titles: start
+2021-02-20 13:14:15,792 - root - MainThread - getting job location: start
+2021-02-20 13:14:15,805 - root - MainThread - getting date when posted: start
+2021-02-20 13:14:15,810 - root - MainThread - getting summaries: start
+2021-02-20 13:14:15,816 - root - MainThread - getting salaries: start
+2021-02-20 13:17:44,942 - root - MainThread - getting company names: start
+2021-02-20 13:17:44,951 - root - MainThread - getting job links: start
+2021-02-20 13:17:44,952 - root - MainThread - getting job titles: start
+2021-02-20 13:17:44,952 - root - MainThread - getting job location: start
+2021-02-20 13:17:44,966 - root - MainThread - getting date when posted: start
+2021-02-20 13:17:44,970 - root - MainThread - getting summaries: start
+2021-02-20 13:17:44,978 - root - MainThread - getting salaries: start
