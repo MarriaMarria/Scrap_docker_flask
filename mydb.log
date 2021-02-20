@@ -1,0 +1,3 @@
+2021-02-20 13:49:17,041 - werkzeug - MainThread -  * Debugger is active!
+2021-02-20 13:49:17,044 - werkzeug - MainThread -  * Debugger PIN: 224-330-459
+2021-02-20 13:49:53,453 - werkzeug - MainThread -  * Detected change in '/app/mydb.py', reloading
