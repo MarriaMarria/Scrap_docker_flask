@@ -7,7 +7,8 @@ logging.basicConfig(filename='mydb.log',
 
 
 mydb = mysql.connector.connect(
-    logging.info("connecting to my DB")
+    # logging.info("connecting to my DB")
+    
     host="ms",
     database="scraping_DB",
     user="root",

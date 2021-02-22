@@ -9,7 +9,7 @@ logging.basicConfig(filename='scraper.log',
                     format=f'%(asctime)s - %(name)s - %(threadName)s - %(message)s')
 
 
-URL = 'https://fr.indeed.com/jobs?q=developpeur+web&l=%C3%8Ele-de-France'
+URL = 'https://fr.indeed.com/emplois?q=Developpeur+Cloud&l=%C3%8Ele-de-France'
 
 try:
     response = requests.get(URL)
@@ -17,7 +17,7 @@ except requests.exceptions.ConnectionError:
     logging.info("failed to access url")
 
 
-soup = BeautifulSoup(response.content.decode('utf-8','ignore'),"lxml")
+soup = BeautifulSoup(response.content, 'html.parser')
     #response.text, 'html.parser')
 results = soup.find(id='resultsCol')
 a_links = results.find_all('a', class_ = 'jobtitle turnstileLink')
@@ -61,6 +61,15 @@ def find_summary():
     logging.info("getting summaries: end")
 
 
+
+    print('*************************** \n len==>',len(description_list), '\nresultats description==>', description_list)
+
+    return find_summary
+
+find_summary()
+
+
+
 def find_and_store_links():
     logging.info("getting job links: start")
 
@@ -68,6 +77,7 @@ def find_and_store_links():
         href = link.get('href')
         href = "https://indeed.fr" + href
         href_list.append(href)
+
 
 
 def find_companies():
