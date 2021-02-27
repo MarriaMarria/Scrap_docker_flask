@@ -75,13 +75,14 @@ def search_by_word(word):
     app.logger.info('searching with a string: end')
     
 
-# I don't understand request.args.get
-# @app.route('/search/city')
-# def city_search():
-#     city = request.args.get('city')
-#     return city
-#     # return '''<h1>The city you are searching for a job at is {}'''.format(city)
-#     # The city you are searching for a job at is None
+
+#we search like that http://localhost:4050/search/city=?Paris
+@app.route('/search/city')
+def city_search():
+    city = request.args.get('city')
+    return city
+    # return '''<h1>The city you are searching for a job at is {}'''.format(city)
+    # The city you are searching for a job at is None
 
 # POSSIBLE ENDPOINTS: 
 # select title, location, salary from Job_Offers where salary >= 40;
