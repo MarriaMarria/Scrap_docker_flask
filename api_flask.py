@@ -3,8 +3,6 @@ from flask import Flask, render_template, request, redirect, jsonify
 from mydb import mydb, mycursor
 import logging
 import json
-##connection to my DB + requests to
-
 
 app = Flask(__name__)
 
@@ -29,8 +27,16 @@ def search_by_city(city):
     # SELECT title FROM Job_Offers4 WHERE location = 'Paris (75)' // on met dans l'URL Paris (75)
     result = mycursor.fetchall()
     return jsonify(result)
-
     app.logger.info('searching with city name: end')
+
+
+@app.route('/getting_last_element')
+def get_last():
+    app.logger.info('searching within last 12 hours: start')
+    mycursor.execute("SELECT * FROM Job_Offers WHERE scraped >= DATE_SUB(NOW(),INTERVAL 12 HOUR);") 
+    result = mycursor.fetchall()
+    return jsonify(result)
+    app.logger.info('searching within last 12 hours: start')
 
 
 # all info
@@ -53,14 +59,38 @@ def search_by_title():
     return jsonify(result)
     app.logger.info('searching by job title: end')
 
-# search by order published 
-@app.route('/search/date')
+
+# def write_to_file(SOME INFO):
+
+#     now = datetime.datetime.now()
+#     date_formatted = now.strftime("%Y-%m-%d %H:%M:%S") # formatting time into YMD, H:M:S
+
+#     try:
+#         with open("job_offers.txt", "a+") as myfile:
+#             myfile.write('Some text' + SOME INFO from parameters + date_formatted)
+#             print(f"File updated on {date_formatted}")
+#     except Exception as e:
+#         logging.info(f"File not written, error: {e}")
+
+
+@app.route('/search/latest')
 def search_date():
-    app.logger.info('searching by date published: start')
-    mycursor.execute("Select * From Job_Offers ORDER BY date_published")
+    app.logger.info('searching latest upfates start')
+    mycursor.execute("Select * From Job_Offers ORDER BY scraped < 24 hours")
     result = mycursor.fetchall()
     return jsonify(result)
     app.logger.info('searching by date published: end')
+
+
+
+# # search by order published 
+# @app.route('/search/date')
+# def search_date():
+#     app.logger.info('searching by date published: start')
+#     mycursor.execute("Select * From Job_Offers ORDER BY date_published ASC")
+#     result = mycursor.fetchall()
+#     return jsonify(result)
+#     app.logger.info('searching by date published: end')
 
 
 
@@ -89,4 +119,4 @@ def city_search():
 # select * from Job_Offers where title like "%python%";
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=3050, debug=True)
+    app.run(host="0.0.0.0", port=3050, debug=True) #4050

@@ -2,19 +2,22 @@
 import requests
 import logging
 from bs4 import BeautifulSoup
-import unicodedata # to get rid of xa0 in the string in python
+import unidecode
+import unicodedata  # to get rid of xa0 in the string in python
+# from unidecode import unidecode
 
 logging.basicConfig(filename='scraper.log', 
                     level=logging.INFO, 
                     format=f'%(asctime)s - %(name)s - %(threadName)s - %(message)s')
 
 
-URL = 'https://fr.indeed.com/emplois?q=Developpeur+Cloud&l=%C3%8Ele-de-France'
+URL = 'https://fr.indeed.com/jobs?q=developpeur+alternance&l=%C3%8Ele-de-France'
 
 try:
     response = requests.get(URL)
-except requests.exceptions.ConnectionError:
-    logging.info("failed to access url")
+# except requests.exceptions.ConnectionError:
+except Exception as e:
+    logging.info(f"failed to access url, error {e}")
 
 
 soup = BeautifulSoup(response.content, 'html.parser')
@@ -36,38 +39,18 @@ def find_salary():
     logging.info("getting salaries: start")
     try:
         salaries = results.find_all('span', class_ = "salaryText")
+        print(f'SALARIES ############################################## {salaries}')
         for salary in salaries:
+            print(f"ONE SALARY ######################################## {salary}")
             salary = salary.text.strip()
             salary = unicodedata.normalize("NFKD", salary)
-
-            # https://stackoverflow.com/questions/10993612/how-to-remove-xa0-from-string-in-python
-            
+            # https://stackoverflow.com/questions/10993612/how-to-remove-xa0-from-string-in-python    
             salary_list.append(salary)
     except:
         salaries = " "
 
     return salary_list
-    logging.info("getting salaries: start")
-
-
-
-def find_summary():
-
-    logging.info("getting summaries: start")
-    summaries = results.find_all('div', class_ = "summary")
-    for summary in summaries:
-        summary_list.append(summary.text.strip())
-    return summary_list
-    logging.info("getting summaries: end")
-
-
-
-    print('*************************** \n len==>',len(description_list), '\nresultats description==>', description_list)
-
-    return find_summary
-
-find_summary()
-
+    logging.info("getting salaries: end")
 
 
 def find_and_store_links():
@@ -77,7 +60,6 @@ def find_and_store_links():
         href = link.get('href')
         href = "https://indeed.fr" + href
         href_list.append(href)
-
 
 
 def find_companies():
@@ -97,8 +79,20 @@ def find_and_store_titles():
     logging.info("getting job titles: start")
     for title in a_links:
         title = title.get('title')
+        # unidecodizer = unidecode.unidecode(title)
+        # title_list.append(unidecodizer)
         title_list.append(title)
-    return title_list
+    
+
+    try:
+        for i in title_list:
+            print(i)
+            if len(i.split(" - ")) == 2:
+                unaccented_string = unidecode.unidecode(i)
+                title_list.append(unaccented_string.split(" - ")[0])
+                return title_list
+    except Exception as e:
+        logging.error(f"Error, type: {e}")
 
     logging.info("getting job links: end")
 
@@ -130,15 +124,16 @@ links_var = find_and_store_links()
 titles_var = find_and_store_titles()
 locations_var = find_locations()
 dates_var = date_when_posted()
-summary_var = find_summary()
 salary_var = find_salary()
 
-big_list = list(zip( title_list, company_list, locations_list, salary_list, date_lists, href_list, summary_list))
 
-# print(company_var)
-# print(links_var)
-# print(titles_var)
-# print(locations_var)
-# print(dates_var)
-# print(summary_var)
-# print(salary_var)
+# print(f"COMPANIES : {company_list}")
+# print(f"URLS: {href_list}")
+# print(f"TITLES: {title_list}")
+# print(f"LOCATIONS: {locations_list}")
+# print(f"DATES: {date_lists}")
+# print(f"SALARIES: {salary_list}")
+
+
+big_list = list(zip( title_list, company_list, locations_list, salary_list, date_lists, href_list))
+print(f"PRINTING BIG LIST: {big_list}")
